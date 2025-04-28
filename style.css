@@ -1,13 +1,89 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
-  background: #f9f9f9;
-  color: #222;
+  background: #f6f8f5;
+  color: #1a3d2f;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-a {
-  color: #007acc;
+
+header {
+  background: #e0efe6;
+  padding: 24px 0 12px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 4px solid #1a3d2f;
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  color: #1a3d2f;
+  margin-bottom: 8px;
+}
+
+nav a {
+  color: #1a3d2f;
   text-decoration: none;
+  margin: 0 18px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
 }
-a:hover {
-  text-decoration: underline;
+
+nav a:hover {
+  color: #2e7d5a;
+}
+
+main {
+  flex: 1;
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(26, 61, 47, 0.07);
+}
+
+h1, h2 {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-weight: 700;
+  color: #1a3d2f;
+}
+
+.slogan {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.1rem;
+  color: #2e7d5a;
+  font-style: italic;
+}
+
+.divider {
+  height: 2px;
+  background: #b2d8c2;
+  margin: 32px 0;
+  border-radius: 1px;
+}
+
+.card {
+  background: #e0efe6;
+  border-left: 6px solid #1a3d2f;
+  padding: 18px 24px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+footer {
+  background: #e0efe6;
+  color: #1a3d2f;
+  text-align: center;
+  padding: 16px 0;
+  font-size: 0.95rem;
+  border-top: 2px solid #b2d8c2;
+  margin-top: 40px;
 }
